@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#countlabel {
+    display: block;
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 20px; /* Space between label and buttons */
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: hsl(214, 100%, 74%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    background-color: hsl(214, 100%, 64%);
+}
